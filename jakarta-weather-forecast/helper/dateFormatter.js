@@ -10,4 +10,5 @@ const dateFormatter = (date) => {
 	return event.toLocaleDateString("en-AU", options);
 };
 
+
 module.exports = dateFormatter
