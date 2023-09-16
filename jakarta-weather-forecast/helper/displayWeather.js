@@ -1,6 +1,6 @@
 const dateFormatter = require("./dateFormatter");
 const getWeatherData = require("./getWeather");
-const apiKey = "559649590f8a0845ba50d7153b250fcf";
+const apiKey = process.env.WEATHER_MAP_API_KEY_ENV
 let city = "jakarta";
 
 
