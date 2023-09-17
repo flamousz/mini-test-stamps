@@ -18,6 +18,7 @@ async function displayWeather() {
             if (dateChangeCounter === 0) {
                 dateChangeCounter+=1
                 comparedDate = currentDate
+                console.log(`${dateFormatter(iterator.dt_txt)}: ${iterator.main.temp}°C`);
             }
             
             if (comparedDate < currentDate) {
