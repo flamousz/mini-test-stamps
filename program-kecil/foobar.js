@@ -1,7 +1,6 @@
 const fooBar = () => {
 	let result = [];
 
-	// Function to check if a number is prime
 	const isPrime = (n) => {
 		if (n <= 1) {
 			return false;
