@@ -7,7 +7,7 @@ async function getWeatherData(apiKey, city) {
 		);
 		return response.data.list;
 	} catch (error) {
-		throw error;
+		console.log('Error fetching weather data:', error);
 	}
 }
 
